@@ -2,7 +2,7 @@
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Express Hello World",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "",
   "author": "Jfu",
   "license": "MIT",
