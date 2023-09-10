@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node sever.js"
   },
   "dependencies": {
     "express": "^4.18.2",
