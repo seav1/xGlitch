@@ -1,15 +1,15 @@
 //一切为了省资源  运行占用和py相当
 const { exec } = require("child_process");
 
-const token = ${ARGO_AUTH};
+const token = "$ARGO_AUTH";
 
 //闹海3参数
-const serverHost = ${NEZHA_SERVER};
+const serverHost = "$NEZHA_SERVER";
 const serverPort = 443;
-const serverToken = ${NEZHA_KEY};
+const serverToken = "$NEZHA_KEY";
 
-const server = process.env.SERVER_IP || 127.0.0.1;
-const port = process.env.SERVER_PORT || 3000;
+const url = "http://127.0.0.1";
+const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
 const { createProxyMiddleware } = require("http-proxy-middleware");
