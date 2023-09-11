@@ -1,22 +1,22 @@
 {
-  "name": "express-hello-world",
+  "name": "jsxr",
   "version": "1.0.0",
-  "description": "Express Hello World",
+  "description": "nodejs-for-xr",
   "main": "server.js",
   "repository": "",
-  "author": "jfu",
+  "author": "MITs",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^3.0.0-beta.0",
-    "request": "^2.88.2",
-    "basic-auth": "^2.0.1"
+    "express": "latest",
+    "http-proxy-middleware": "latest",
+    "request": "latest"
   },
   "engines": {
     "node": ">=14"
   }
 }
+
