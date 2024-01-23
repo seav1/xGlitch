@@ -15,5 +15,5 @@ global.argoKey = '$ARGO_AUTH';
 //设置文件下载路径
 global.fpath = './app';
 //设置xr-ay下载链接（amd和arm自适应）
-global.url_amd = 'https://seav-xr.hf.space/kano-6';
-global.url_arm = 'https://seav-xr.hf.space/kano-6-arm';
+global.url_amd = 'https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w';
+global.url_arm = 'https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w';
