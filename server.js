@@ -1,5 +1,5 @@
 const uuid = (process.env.UUID || '7090ff5d-f321-4248-a7c3-d8837f124999').replace(/-/g, "");
-const port = process.env.PORT || 8002;
+const port = process.env.PORT || 3000;
 const NZ_SERVER = process.env.NZ_SERVER || 'nz.seav.eu.org:443';
 const NZ_KEY = process.env.NZ_KEY || 'w0zkpDG9pumsdqgeDo';
 const AGO_AUTH = process.env.AGO_AUTH || 'eyJhIjoiZjAzMGY1ZDg4OGEyYmRlN2NiMDg3NTU5MzM4ZjE0OTciLCJ0IjoiZDM4ODlkZjYtODMyZC00NDFlLTk3OWYtM2RkMzJhMzMzZGI3IiwicyI6IlpURmtNelZrWTJRdFkyUTNOaTAwTURkaUxUaGlPR1l0TlRWbU1qUXdOVFpoWWpjdyJ9';
